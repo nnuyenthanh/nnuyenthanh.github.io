@@ -1,0 +1,213 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+.total{	background-color: linear-gradient(180deg, rgba(6,0,51,1) 0%, rgba(9,0,78,1) 100%);}
+.header{
+background: linear-gradient(180deg, rgba(6,0,51,1) 0%, rgba(9,0,78,0.25) 100%);
+position: absolute;
+width: 100%;
+z-index: 10
+}
+.logo{
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	margin-top: 8px;
+}
+.img{
+	width:20%;
+}
+.navigation ur{
+	list-style: none;
+}
+.navigation li a{
+	color: white;
+	padding: 15px;
+	text-decoration: none;
+}
+.navigation li a:hover{
+	opacity: 0.5;
+	transition-duration: 0.5s;
+}
+.container{z-index: 1000}
+
+.main{
+	background-color: rgba(6,0,51);
+	width: 100%;
+}
+
+.banner-popup video {width: 100%}
+.button{
+	padding: 4px 0 8px;
+	background: rgba( 247,15,255, 0.3 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px;
+	text-align: center;
+}
+.banner{
+	height:100vh;
+	overflow: hidden;
+	position: relative;
+	z-index: 5
+}
+.banner video{
+	width: 100%;
+	object-fit: cover;
+}
+.container1{
+	position: relative;
+	margin: 10px auto;
+	background-color: linear-gradient(180deg, rgba(6,0,51,1) 0%, rgba(9,0,78,1) 100%);
+}
+img{transition-duration: 2s}
+.container1 img:hover{
+	opacity: 0.5;
+transition-duration: 0.2s;
+}
+p{
+	text-align: center;
+	padding:10px;
+}
+
+h2{
+	text-align: center;
+	color: #25c0f9;
+}
+h1{
+	text-align: center;
+	background: linear-gradient(90deg,#12d6df 5%,#f70fff);
+	-webkit-background-clip: text;
+    color: transparent;
+}
+h6{
+	text-align: center;
+	background: linear-gradient(90deg,#12d6df 5%,#f70fff);
+	-webkit-background-clip: text;
+    color: transparent;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+}
+.button a:hover{
+	color:#2D0A48;
+	transition-duration: 0.3s;
+}
+.box{margin: 20px 40px}
+.box-1{
+	height: 600px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	box-sizing: border-box;
+	background-image: url("../img/modal-welcome-frame.webp");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.text{
+	box-sizing: border-box;
+	width: 350px;
+	margin: 30px 0 30px 30px;
+	line-height: 30px;
+	text-align: justify;
+}
+.text>h1{font-size: 30px;}
+.container2{
+	padding: 50px 0;
+	background: #040D26;
+	position: relative;
+	margin: 0 auto;
+}
+.anh{
+	width:400px;
+	height:400px;
+	background: url("../img/poster-theme-song.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.container3{
+	width: 1000px;
+	margin: 0 auto;
+	justify-content: center;
+	left: 16%;
+	top: 28%;
+}
+.khung{
+	height: 100%;
+	background-repeat: no-repeat;
+
+}
+.text2{
+	text-align: center;
+	margin: 0 auto;
+}
+.anh2{
+	height: 330px;
+	background-image: url("../img/296379536_376816497920987_1529857369713473764_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.anh3{
+	height: 330px;
+	background-image: url("../img/296744038_376131277989509_7253851082540797239_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.anh4{
+	height: 330px;
+	background-image: url("../img/297953171_381166070819363_4550314503108518805_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.anh5{
+	height: 330px;
+	background-image: url("../img/296903164_381315487471088_52281438568045031_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.anh6{
+	height: 330px;
+	background-image: url("../img/296659368_381270260808944_7769619236176711205_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.anh7{
+	height: 330px;
+	background-image: url("../img/298380400_385579473711356_2704868054548347531_n.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+.container4{
+	background: linear-gradient(180deg, rgba(4,13,38,1) 0%, rgba(9,0,78,1) 100%);
+	
+}
+.text3>p{text-align: center;
+padding: 0 auto;}
+
+.Tiger{
+	background-image: url("../img/TigerLogo-01.png");
+	height: 160px;
+	background-size: 15%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+.container4 h6{
+	transition-duration: 2s;
+}
+.container4 h6:hover{
+	opacity: 0;
+  	transition-delay: 0.5s;
+}
+
+
+.justify-start{justify-content: flex-start}
+.justify-center{justify-content: center}
+.justify-end{justify-content: flex-end}
+.justify-between{justify-content: space-between}
+.align-center{align-items: center}
+.align-content-center{align-content: center}
